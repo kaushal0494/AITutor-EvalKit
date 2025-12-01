@@ -1,0 +1,7 @@
+brew install node
+
+#  if its your first project
+
+npm init -y
+
+npm install next react react-dom
