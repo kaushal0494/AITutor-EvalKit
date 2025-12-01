@@ -9,7 +9,7 @@ All notable changes to this project are documented here.
 ## [Unreleased]
 
 * Ongoing refinements and testing ahead of the next release
-* Planned updates to evaluation logic and visualization modules
+* Evaluation logic and visualization modules
 
 ---
 
