@@ -1,6 +1,6 @@
 # AI Tutor Evaluation Toolkit
 
-![App Overview](./assets/others/aitutor-evalkit-main.png)
+![Toolkit Overview](./assets/others/aitutor-evalkit-main.png)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
@@ -35,11 +35,16 @@ Welcome to **`AITutor-EvalKit`** !
 
 Developed by the **EduNLP Lab at MBZUAI**, this toolkit combines insights from **learning sciences** with recent advancements in **LLM technology** to systematically **evaluate**, **compare**, and **analyze** the pedagogical performance of AI tutoring models. Building on prior research – including the **NAACL 2025 SAC Award-winning paper** by *Maurya et al.* [1] and the **BEA 2025 Shared Task** by *Kochmar et al.* [2] – it introduces a **lightweight, modular framework** for **on-the-fly evaluation** of AI tutor responses, extending beyond static benchmarks to enable scalable and principled pedagogical assessment.
 
-This repository provides comprehensive information and usage instructions for the two main modules of the toolkit: **Backend** and **Frontend**. The backend includes multiple evaluation options, ranging from automated evaluation models to various LLM-as-a-judges. The frontend seamlessly connects the evaluation models with the demo API, enabling users to interactively explore the toolkit’s effectiveness and capabilities.
+This repository provides comprehensive information and usage instructions for the two main modules of the toolkit: **Backend** and **Frontend**. The backend includes multiple evaluation options, ranging from automated evaluation models to various LLM-as-a-judges. The frontend seamlessly connects the evaluation models with the demo app, enabling users to interactively explore the toolkit’s effectiveness and capabilities.
 
 <div style="border: 2px solid #4A90E2; border-radius: 8px; padding: 12px; background-color: #F5FAFF;">
-  <strong style="color:black;"> Toolkit API:</strong> 
+  <strong style="color:black;"> Toolkit App:</strong> 
   <a href="https://demo-ai-tutor.vercel.app/" target="_blank">https://demo-ai-tutor.vercel.app/</a>
+</div>
+<br>
+<div style="border: 2px solid #4A90E2; border-radius: 8px; padding: 12px; background-color: #F5FAFF;">
+  <strong style="color:black;"> Demo Video:</strong> 
+  <a href="https://www.youtube.com/watch?v=9qgDfrhzOvg" target="_blank">https://www.youtube.com/watch?v=9qgDfrhzOvg</a>
 </div>
 <br>
 
@@ -98,7 +103,7 @@ AITutor-EvalKit/
         │       ├── run_open_llm_as_judge_evaluation.py
         │       └── utils
         │
-        ├── app_src/                      # Main repository for tool API
+        ├── app_src/                      # Main repository for tool app
         │   ├── README.md                 # API Documentation
         |   |── api/                       
         │   ├── scripts/
@@ -261,7 +266,7 @@ After completing the evaluation stage, the output file should follow the structu
 }
 ```
 
-A complete sample file evaluated/annotated by the backend module is available at `assets/outputs/gpt5_model_predictions.json`. This file will be used by the frontend demo API module. 
+A complete sample file evaluated/annotated by the backend module is available at `assets/outputs/gpt5_model_predictions.json`. This file will be used by the frontend demo app module. 
 
 
 ### Frontend Module: Demo App
@@ -329,7 +334,7 @@ REQUESTS_PER_MINUTE = 20  # Lower for Tier 1
 
 ### **Detailed Guides**
 - **[Backend Module](src/README.md)** - Complete AutoEval & LLMEval documentation
-- **[Frontend Module](app_src/README.md)** - Demo API setup and customization
+- **[Frontend Module](app_src/README.md)** - Demo App setup and customization
 - **[Changelog](CHANGELOG.md)** - Version history and updates
 
 ### **Quick Reference Commands**
@@ -348,7 +353,7 @@ cd src/llmeval && python run_open_llm_as_judge_evaluation.py
 cd src/llmeval && ./gpt5_eval_runner.sh
 
 # Frontend Demo
-cd api_src && npm run dev
+cd app_src && npm run dev
 ```
 
 

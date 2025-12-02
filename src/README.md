@@ -31,11 +31,8 @@ Make sure the following directories, files, and scripts are present:
 ```
 AITutor-EvalKit/
         │
-        ├── README.md                      # This file
-        ├── environment.yml                # Dependencies
-        │
         ├── src/                          # Main repository for the AI tutor evaluation 
-        |   ├── README.md                 # AutoEval and LLMEval Documentation
+        |   ├── README.md                 # this file
         │   ├── autoeval/                 # LoRA Training & Evaluation
         │   │   ├── train.py              # Training script
         │   │   ├── evaluation.py         # Evaluation script

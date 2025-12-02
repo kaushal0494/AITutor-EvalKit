@@ -34,7 +34,7 @@ https://demo-ai-tutor.vercel.app/
 ### Ensure the Directory Structure
 
 ```
-AITutor-EvalKit/
+AITutor-EvalKit/app_src
       ├── app/
       │   ├── api/
       │   │   ├── autoeval-data/      # Dataset metadata API
