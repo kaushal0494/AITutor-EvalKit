@@ -24,6 +24,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Citation](#citation)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -37,17 +38,6 @@ Developed by the **EduNLP Lab at MBZUAI**, this toolkit combines insights from *
 
 This repository provides comprehensive information and usage instructions for the two main modules of the toolkit: **Backend** and **Frontend**. The backend includes multiple evaluation options, ranging from automated evaluation models to various LLM-as-a-judges. The frontend seamlessly connects the evaluation models with the demo app, enabling users to interactively explore the toolkit’s effectiveness and capabilities.
 
-<div style="border: 2px solid #4A90E2; border-radius: 8px; padding: 12px; background-color: #F5FAFF;">
-  <strong style="color:black;"> Toolkit App:</strong> 
-  <a href="https://demo-ai-tutor.vercel.app/" target="_blank">https://demo-ai-tutor.vercel.app/</a>
-</div>
-<br>
-<div style="border: 2px solid #4A90E2; border-radius: 8px; padding: 12px; background-color: #F5FAFF;">
-  <strong style="color:black;"> Demo Video:</strong> 
-  <a href="https://www.youtube.com/watch?v=9qgDfrhzOvg" target="_blank">https://www.youtube.com/watch?v=9qgDfrhzOvg</a>
-</div>
-<br>
-
 **Key Features:**
 - **Modular Design** - Use modules independently or jointly
 - **Customizable** - Easy prompt and configuration customization
@@ -57,6 +47,21 @@ This repository provides comprehensive information and usage instructions for th
 - **Production-Ready** - Robust error handling and logging
 
 ---
+
+## Project Resources
+
+Below are the key resources for the AITutor-EvalKit project:
+
+<table>
+  <tr><td><strong>Paper:</strong> <a href="https://arxiv.org/abs/2512.03688" target="_blank">https://arxiv.org/abs/2512.03688</a></td></tr>
+  <tr><td><strong>Toolkit App:</strong> <a href="https://demo-ai-tutor.vercel.app/" target="_blank">https://demo-ai-tutor.vercel.app/</a></td></tr>
+  <tr><td><strong>Demo Video:</strong> <a href="https://www.youtube.com/watch?v=9qgDfrhzOvg" target="_blank">https://www.youtube.com/watch?v=9qgDfrhzOvg</a></td></tr>
+  <tr><td><strong>Associated Data Source I:</strong> <a href="https://aclanthology.org/2025.naacl-long.57/" target="_blank">https://aclanthology.org/2025.naacl-long.57/</a></td></tr>
+  <tr><td><strong>Associated Data Source II:</strong> <a href="https://aclanthology.org/2025.bea-1.77/" target="_blank">https://aclanthology.org/2025.bea-1.77/</a></td></tr>
+</table>
+
+---
+
 
 ## Installation
 
@@ -378,6 +383,24 @@ This project is licensed under the MIT License.
 
 - **Issues:** [GitHub Issues](https://github.com/kaushal0494/AITutor-EvalKit/issues)
 - **Lab:** [EduNLP Lab, MBZUAI](https://mbzuai.ac.ae)
+
+---
+
+## Citation
+
+If you use **AITutor-EvalKit** in your research or project, please cite our paper:
+
+```bibtex
+@misc{naeem2025aitutor,
+  title         = {AITutor-EvalKit: Exploring the Capabilities of AI Tutors},
+  author        = {Numaan Naeem and Kaushal Kumar Maurya and Kseniia Petukhova and Ekaterina Kochmar},
+  year          = {2025},
+  eprint        = {2512.03688},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2512.03688}
+}
+```
 
 ---
 
